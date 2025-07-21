@@ -9,22 +9,16 @@ public class CustomerDemo
 		m=100;
 		// Customer 1
 		Customer c1=new Customer ();
-		c1.cid=101;
-		c1.cname="raja";
-		c1.city="puducherry";
-		System.out.println("Customer id:"+c1.cid);	
-		System.out.println("Customer Name:"+c1.cname);		
-		System.out.println("Customer city:"+c1.city);		
-		
+		c1.setCid(101);
+		c1.setCname("raja");
+		c1.setCity("puducherry");
+		System.out.println(c1);
 		//Customer 2
 		Customer c2=new Customer ();
-		c2.cid=102;
-		c2.cname="priya";
-		c2.city="puducherry";
-		System.out.println("Customer id:"+c2.cid);	
-		System.out.println("Customer Name:"+c2.cname);		
-		System.out.println("Customer city:"+c2.city);		
-		
+		c2.setCid(102);
+		c2.setCname("priya");
+		c2.setCity("puducherry");
+		System.out.println(c1);
 
 	}
 
